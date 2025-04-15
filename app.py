@@ -99,5 +99,6 @@ with st.expander("➕ Add New Task"):
         st.success("Task added successfully")
 
         if uploaded_file:
+            os.makedirs("uploads", exist_ok=True)
             with open(f"uploads/{uploaded_file.name}", "wb") as f:
                 f.write(uploaded_file.getbuffer())
