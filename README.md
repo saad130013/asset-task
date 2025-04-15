@@ -1,10 +1,15 @@
-# نظام إدارة المهام الذكي
+# Asset Task System (Streamlit)
 
-نظام ذكي لإدارة المهام باستخدام Streamlit وذكاء اصطناعي.
-يشمل تصنيف المهام، تحليل المشاعر، وتوقع مدة التنفيذ.
+Smart task management system with Kanban board, user login, file attachment, and persistent storage.
 
-## التشغيل
+## Features
+- Task creation, filtering, and categorization
+- Kanban board by status (To Do, Doing, Done, Backlog)
+- Role-based login (Manager, Supervisor, Employee)
+- File attachments per task
+- Streamlit UI and CSV storage
 
+## Run locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
