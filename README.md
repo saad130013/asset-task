@@ -1,14 +1,20 @@
-# Asset Task Management System
+# نظام إدارة المهام - Asset Task System
 
-This project is a Streamlit-based task management tool with:
+نظام متكامل لإدارة المهام مبني باستخدام Streamlit. يحتوي على:
 
-- Login system
-- Dashboard metrics
-- Task creation and Kanban view
-- Role-based access and user management
+## ✅ المميزات:
+- تسجيل دخول وخروج آمن
+- لوحة تحكم بالإحصائيات
+- عرض المهام كجدول أو لوحة كانبان
+- إدارة مستخدمين (إضافة/حذف)
+- رفع مرفقات (صور، PDF، مستندات)
+- ألوان مخصصة لحالة المهام:
+  - To Do: أصفر (#FFD700)
+  - Doing: أزرق (#87CEEB)
+  - Done: أخضر (#90EE90)
+  - Backlog: رمادي (#cccccc)
 
-## Run locally
-
+## 📦 التشغيل المحلي
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
