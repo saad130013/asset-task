@@ -1,15 +1,14 @@
-# Asset Task System (Streamlit)
+# Asset Task Management System
 
-Smart task management system with Kanban board, user login, file attachment, and persistent storage.
+This project is a Streamlit-based task management tool with:
 
-## Features
-- Task creation, filtering, and categorization
-- Kanban board by status (To Do, Doing, Done, Backlog)
-- Role-based login (Manager, Supervisor, Employee)
-- File attachments per task
-- Streamlit UI and CSV storage
+- Login system
+- Dashboard metrics
+- Task creation and Kanban view
+- Role-based access and user management
 
 ## Run locally
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
