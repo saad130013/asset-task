@@ -1,0 +1,4 @@
+Username,Password,Role
+admin,admin123,Manager
+supervisor,sup123,Supervisor
+user1,user123,Employee
